@@ -90,7 +90,7 @@ def process_courses_from_excel(excel_file, url_column='course_website'):
 
 if __name__ == '__main__':
     # Example usage
-    excel_file = 'input_links.xlsx'  # Replace with your Excel file path
+    excel_file = 'mod_website_links.xlsx'  # Replace with your Excel file path
     result_df = process_courses_from_excel(excel_file)
     
     # Save the results to a new Excel file
